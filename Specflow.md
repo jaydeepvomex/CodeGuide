@@ -44,3 +44,20 @@ Scenario Outline: Add two numbers
 
 #### Format to use
 - As a... I want... So that...
+
+### Background
+
+- Provides context (state setup) to the scenarios in a feature
+- Executed before every scenario
+
+```md
+Background:
+	Given I have teeth
+	And I have some toothpaste
+
+Scenario: Successful brushing
+...
+
+Scenario: Toothpaste runs out
+...
+```
