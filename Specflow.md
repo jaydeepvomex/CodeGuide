@@ -61,3 +61,16 @@ Scenario: Successful brushing
 Scenario: Toothpaste runs out
 ...
 ```
+
+### Coding the automation steps
+
+- Install Specflow from Extension and Updates
+
+Install the Nuget package:
+
+```bash
+$> Specflow.NUnit
+```
+
+> This will also install NUNit and Specflow to the project.
+
